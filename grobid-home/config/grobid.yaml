@@ -16,7 +16,7 @@ grobid:
       path: "pdfalto"
       # security for PDF parsing
       memoryLimitMb: 6096
-      timeoutSec: 120
+      timeoutSec: 1200
 
     # security relative to the PDF parsing result
     blocksMax: 200000
