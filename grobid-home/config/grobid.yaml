@@ -15,12 +15,12 @@ grobid:
       # path relative to the grobid-home path (e.g. grobid-home/pdfalto), you don't want to change this normally
       path: "pdfalto"
       # security for PDF parsing
-      memoryLimitMb: 6096
-      timeoutSec: 1200
+      memoryLimitMb: 8192
+      timeoutSec: 12000
 
     # security relative to the PDF parsing result
-    blocksMax: 200000
-    tokensMax: 1000000
+    blocksMax: 2000000
+    tokensMax: 10000000
 
   consolidation:
     # define the bibliographical data consolidation service to be used, either "crossref" for CrossRef REST API or 
